@@ -1,0 +1,146 @@
+html, body{
+	margin: 1px 0px 0px 0px;
+	padding: 0px;
+	height: 100%;
+}
+   
+#container{
+	min-height: 100%;
+}
+
+#container #footerpush{
+    height: 60px; /* Footer 的高度 */
+}
+
+#header{
+	width: 1340px;
+	background: #f2f2f2;
+	height: 100px;
+	margin: 0px auto;
+	border-style: outset;
+	padding: 0px;
+}
+
+#header #left #logo{
+	width: 250px;
+	height: 100px;
+	float: left;
+}
+
+#header #middle{
+	text-align: center;
+}
+
+#header #middle h4{
+	float: left;
+	margin-left: 40px;
+}
+
+#header #right{
+	float: right;
+}
+
+#header #right table{
+	margin-top: 10px;
+	width: 450px;
+	border: 1px solid red;
+}
+
+#header #right table td#first1{
+	width: 100px;
+}
+#header #right table td#second1{
+	width: 100px;
+}
+#header #right table td#third1{
+	width: 100px;
+}
+#header #first table td#fourth1{
+	width: 150px;
+}
+#header #right table td#first2{
+	width: 150px;
+}
+#header #right table td#second2{
+	width: 150px;
+}
+
+#container #page{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#container #page #searchbox{
+	margin-top: 10px;
+	height:30px;
+	width:1200px;
+	line-height:30px;
+	font-size: 14px;
+}
+#container #page #searchbox .searchtext{
+	width:600px;
+	height:100%;
+	float:left;
+	font-size:17px;
+}
+
+#container #page #searchbox #searchbutton{
+	width: 100px;
+	height: 100%;
+	background: #F2E0F7;
+	color: #FF0000;
+	float: left;
+	font-size: 20px;
+}
+
+#container #page #searchbox #newpost{
+	background: #F2E0F7;
+	color: #FF0000;
+	float: right;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#container #page #search_auto{
+	border: 1px #ff0000 solid;
+	position: absolute;
+	display: none;
+}
+#container #page #search_auto li{
+	background: #fff;
+	text-align: left;
+}
+#container #page #search_auto li.cls{
+	text-align: right;
+}
+#container #page #search_auto li a{
+	display: block;
+	padding: 5px 6px;
+	cursor: pointer;
+	color: #666;
+}
+#container #page #search_auto li a:hover{
+	background: #d8dbd8;
+	text-decoration: none;
+	color: #000;
+}
+
+#container #page hr{
+	border: 2px #6E6E6E dash;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 4px; 
+}
+
+#footer{
+	border: 1px #E6E6E6 solid;
+	padding: 0px;
+	clear: both; /* 清除浮动元素格式 */
+	position: relative;
+	margin-top: -60px; /* Footer 高度的负值 */
+	height: 60px;
+	text-align: center;
+	background: #A4A4A4;
+}

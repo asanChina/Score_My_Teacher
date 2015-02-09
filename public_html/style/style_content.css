@@ -1,0 +1,119 @@
+#container #page #content{
+	border: 3px #A4A4A4 solid;
+	border-top-style: none;
+	border-bottom-style: none;
+	float: left;
+	width: 1200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#content #response{
+	text-align: center;
+	margin: 0 auto;
+	border: 1px red solid;
+}
+#content #siteinfo{
+	text-align: center;
+}
+
+#content #buttoncenter{
+	text-align: center;
+}
+
+#content #loginform{
+	border: 1px red solid;
+	width: 600px;
+	margin: 0 auto;
+}
+
+#content #registerform{
+	border: 1px red solid;
+	width: 600px;
+	margin: 0 auto;
+}
+
+#content #administratorform{
+	border: 1px red solid;
+	width: 600px;
+	margin: 0 auto;
+}
+
+#content #changepasswordform{
+	border: 1px red solid;
+	width: 600px;
+	margin: 0 auto;
+}
+
+#content #newpostform{
+	border: 1px red solid;
+	width: 600px;
+	margin: 0 auto;
+}
+
+#content #articlelistform{
+	width: 1192px;
+	margin-left: 4px;
+	font-size: 17px;
+	border-collapse: collapse;
+}
+
+#content #articlelistform .articlelist_tr{
+	border: 1px #fafafa solid;
+	border-style: groove;
+	width: 90%;
+	margin: 0 auto;
+	border-left: none;
+	border-right: none;
+}
+
+#content #articlelistform td{
+	padding: 10px;
+}
+#content #articlelist #firstcol{
+	width: 50%;
+}
+#content #articlelist #secondcol{
+	width: 21%;
+}
+#content #articlelist #thirdcol{
+	width: 22%;
+}
+#content #articlelist #fourthcol{
+	width: 7%;
+}
+
+#content #articledetail{
+	border: 1px #424242 solid;
+	width: 1192px;
+	margin-left: 4px;
+	padding: 2;
+	border-spacing: 1;
+}
+
+#content #articledetail .firstcol{
+	width: 200px;	
+}
+#content #articledetail #firstrow td{
+	background: #ff0000;
+	margin: 1;
+}
+
+#content #articledetail #secondrow td{
+	background: #f2f2f2;
+	border: 1px #848484 solid;
+}
+
+#content #articledetail table td{
+	border: 1px #ff0000 solid;
+	margin: 1px;
+}
+
+#content #replyform{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 1px blue solid;
+	text-align: center;
+}
+
