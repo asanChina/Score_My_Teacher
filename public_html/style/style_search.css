@@ -1,0 +1,21 @@
+#container #page #content #search_result_div{
+	width: 1190px;
+	height: 220px;
+	overflow: scroll;
+	border: 3px red solid;
+}
+
+#container #page #content #search_result_div #search_result_table{
+	margin: 8px auto;
+	border: 1px gray solid;
+	border-collapse: collapse;
+}
+
+#container #page #content #search_result_div #search_result_table tr{
+	border: 1px red solid;
+}
+
+#container #page #content #search_result_div #search_result_table td{
+	border: 1px red solid;
+	padding: 8px;
+}
